@@ -40,8 +40,8 @@ const Home: NextPage = () => {
 
             {listItems.map((val, ind) =>
 
-              <ListItem>
-                <ListIcon key={ind} as={MdCheckCircle} color='purple.500' />
+              <ListItem key={ind}>
+                <ListIcon  as={MdCheckCircle} color='purple.500' />
                 {val}
               </ListItem>
             )}
